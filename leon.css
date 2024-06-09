@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar-restourant img{
+width: 100px;
+margin-left:20px ;
+padding: 15px 20px;
+
+}
+.navbar-restourant{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  
+
+}
+header{
+    height: 100vh;
+    background-image: url("./image\ restaurant/home_bg.jpeg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+   
+  
+}
+.navegation-bar ul{
+    display: flex;
+    margin-right: 20px;
+}
+.navegation-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight:600;
+    padding: 15px 20px;
+
+}
+.navegation-bar ul li{
+    list-style: none;
+}
+.navegation-bar ul li a:hover{
+    border-bottom: 2px solid #e4b95b;
+}
+.content-navegation{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 45vh;
+    left: 350px;
+
+}
+.content-navegation h1{
+    font-weight: 800;
+    color: #fff;
+    padding:10px;
+    letter-spacing: 4px;
+}
+.content-navegation h1 span{
+    color: #e4b95b;
+    font-weight:900;
+}
+.content-navegation p{
+    color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+   
+}
+.content-navegation .btn-primary{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-weight: 500;
+  
+    border:1px #fff solid;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.content-navegation .btn-primary:hover{
+background-color: #e4b95b;
+}
+/* class your btn in wepsite */
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.container{
+    margin: auto;
+    max-width: 1100px;
+}
+header::before{
+content: "";
+position: absolute;
+top:0;
+left:0;
+height: 100%;
+width: 100%;
+background: rgb(0,0,0,0.6);
+}
+header *{
+z-index: 10;
+}
+/* --------------start about------------------ */
+#about{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    background-color: #f4f4f4;
+
+}
+#about .title{
+   align-items: center;
+   text-align: center;
+   margin-bottom: 60px;
+}
+.title h2{
+    font-size: 40px;
+    color:#383848;
+    margin-bottom: 20px;
+}
+#about .title p{
+    font-size: 14px;
+    font-weight: 600;
+    color:#9a9a9a;
+}
+#about .about-content{
+    justify-content: space-between;
+  display: flex;
+}
+#about .about-content img{
+    width: 470px;
+ }
+ #about .about-content p{
+    color: #9a9a9a;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-right: 7rem;
+ }
+ .btn-secondary{
+   
+    text-decoration: none;
+    color: #fff;
+   background-color: #383848;
+   margin-top: 10px;
+}
+.btn-secondary:hover{
+   background-color: #e4b95b; 
+}
+
+/* ------------------End about ----------------*/
+#offers {
+    display: flex;
+    justify-content: center;
+  height: 90vh;
+  background: url('./img/offer-background.jpg') center center/cover  fixed;
+
+}
+#offers .title{
+    text-align: center;
+    margin-bottom:4rem ;
+}
+#offers .title h2{
+
+color: #e4b95b;
+}
+#offers .title p{
+    font-size: 14px;
+    font-weight: 600;
+    color:#9a9a9a;
+}
+#offers .category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+/*  */
+#offers .Quatro-pasta img{
+text-align: center;
+align-items: center;
+display: flex;
+margin-left: 85px;
+width: 200px;
+/* margin-bottom: 20px; */
+}
+
+#offers .Quatro-pasta h3{
+    text-align: center;
+   font-weight: 700;
+   font-size: 25px;
+    display: block;
+    margin: 10px 0;
+    color: #fff;
+    margin-left: 10px;
+}
+#offers .Quatro-pasta p{
+    text-align: center;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+  padding: 0 20px;
+}
+#offers .Quatro-pasta p span{
+    color: #e4b95b;
+    font-weight: 700;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* start menu */
+#menu h2{
+    text-align: center;
+    margin-top: 4rem;
+}
+#menu p{
+    text-align: center;
+    font-weight: 600;
+    color: #9a9a9a;
+}
+#menu .container{
+    margin: auto;
+    max-width: 1100px;
+}
+
+#menu .menu-all {
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 40px;
+
+}
+#menu .menu-right img{
+   width: 80px;
+   border-radius: 50%;
+   margin-right: 20px;
+
+
+}
+#menu .menu-left img{
+    width: 80px;
+   border-radius: 50%;
+position: relative;
+margin-right: 20px;
+
+}
+#menu .menu-all .menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+#menu .menu-all h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #383848;
+    position: relative;
+    border-bottom: 1px dashed #c2bdbd;
+    padding-bottom: 10px;
+
+
+}
+#menu .menu-all h3 span{
+    color: #e4b95b;
+    font-weight: 700;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+#menu .menu-item  p{
+  margin-top: 10px;
+
+}
+#menu .btn{
+    display: block;
+    margin: auto;
+    color: #fff;
+    background-color: #e4b95b;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/* #menu{
+    background-color: #D9DADc;
+} */
+#menu .btn:hover{
+    background-color: #9a9a9a;
+}
+#day-time{
+    color: #fff;
+    background-image: url("./img/daytime_bg.jpeg");
+    background-size: cover;
+
+
+}
+#day-time .container{
+    margin-top: 30px;
+
+}
+#day-time .daytime-items{
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+   
+}
+#day-time .daytime-item{
+    padding-right: 20px;
+}
+#day-time .daytime-item h3{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+
+}
+#day-time .daytime-item p{
+    font-size: 14px;
+    padding: 10px;
+    font-weight:200;
+}
+/* start gallary */
+#gallary .Gallary-imgs img{
+    width: 250px;
+    height: 180px;
+    border-radius: 15px;
+margin: 20px;
+opacity: 0.5
+} 
+#gallary .Gallary-imgs img:hover{
+opacity: 1;
+}
+#gallary .Gallary-imgs{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+#gallary{
+    background-image: url("./img/offer-background.jpg");
+    background-size: cover;
+  
+}
+#gallary h3{
+    font-size: 30px;
+    text-align: center;
+   color:#fff;
+   padding: 15px 10px 0 0 ;
+  
+}
+/* contact start */
+#contact{
+    padding: 80px;
+    background-color: #f4f4f4;
+}
+#contact .container{
+    max-width: 900px;
+}
+#contact .contact-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact .contact-content .contact-info{
+    width: 50%;
+}
+#contact .contact-content .contact-info div{
+    margin: 20px 0;
+    line-height: 1.7;
+}
+#contact .contact-content .contact-info h3{
+    color: #383848;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+#contact .contact-content .contact-info p{
+    color:;
+    margin-top: 5px;
+
+
+}
+#contact .contact-content .contact-info i{
+margin-right: 5px;
+color: #e4b95b;
+}
+#contact .contact-content .contact-info a i{
+font-size: 20px;
+color: #fff;
+background-color: #383848;
+padding: 15px;
+border-radius: 50%;
+
+}
+#contact .contact-content .contact-info a i:hover{
+    background-color: #e4b95b;
+    color: #383848;
+}
+#forme {
+    width: 50%;
+}
+#forme input,
+textarea{
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    margin: 20px 0;
+    border: none;
+    background-color: #e3e2dd;
+}
+#contact .btn{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #e4b95b;
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#contact .btn:hover{
+    background-color:#383848 ;
+    color: #fff;
+}
+
+
+
+/* contact end */
+#Footer{
+    color: #fff;
+    font-size: 14px;
+    background-color: #383848;
+    padding: 20px 0;
+    text-align: center;
+}
+#Footer p span{
+    color:#0a0908;
+font-weight: 600;
+cursor: pointer;
+    
+}
+
+/* تكوينات عامة للهواتف المحمولة */
+@media only screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  
+    /* قم بتكييف أحجام الخطوط والهوامش والتباعد لتناسب شاشات الهواتف */
+    header {
+      height: 70vh;
+    }
+  
+    .navbar-restourant img {
+      width: 80px;
+      padding: 10px 15px;
+    }
+  
+    .navbar-restourant {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navegation-bar ul {
+      margin-right: 0;
+      padding: 10px;
+    }
+  
+    .navegation-bar ul li a {
+      padding: 10px;
+    }
+  
+    .content-navegation {
+      bottom: 30vh;
+      left: 20px;
+    }
+  
+    .content-navegation h1 {
+      font-size: 24px;
+    }
+  
+    .content-navegation p {
+      font-size: 12px;
+    }
+  
+    .content-navegation .btn-primary {
+      padding: 8px 12px;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  
+    /* قم بتكييف تخطيط قسم about */
+    #about {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    #about .about-content {
+      flex-direction: column;
+      margin-right: 0;
+    }
+  
+    #about .about-content img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    #about .about-content p {
+      margin-right: 0;
+    }
+  
+    #about .btn-secondary {
+      margin-top: 20px;
+    }
+  
+    /* قم بتكييف تخطيط قسم offers */
+    #offers {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    #offers .title,
+    #offers .Quatro-pasta img {
+      margin-left: 0;
+    }
+  
+    /* قم بتكييف تخطيط قسم menu */
+    #menu {
+      padding: 40px 20px;
+    }
+  
+    #menu .menu-all {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #menu .menu-right img,
+    #menu .menu-left img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    #menu .menu-all .menu-item {
+      margin: 20px 0;
+    }
+  
+    #menu .menu-all h3 {
+      font-size: 18px;
+    }
+  
+    #menu .btn {
+      margin-top: 20px;
+    }
+  
+    /* قم بتكييف تخطيط قسم day-time */
+    #day-time {
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    #day-time .daytime-items {
+      flex-direction: column;
+    }
+  
+    #day-time .daytime-item {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    /* قم بتكييف تخطيط قسم gallary */
+    #gallary {
+      padding: 40px 20px;
+    }
+  
+    #gallary h3 {
+      font-size: 18px;
+    }
+  
+    #gallary .Gallary-imgs img {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    /* قم بتكييف تخطيط قسم contact */
+    #contact {
+      padding: 40px 20px;
+    }
+  
+    #contact .contact-content {
+      flex-direction: column;
+    }
+  
+    #contact .contact-content .contact-info {
+      width: 100%;
+    }
+  
+    #contact .contact-content .contact-info div {
+      margin: 10px 0;
+    }
+  
+    #contact .contact-content .contact-info h3,
+    #contact .contact-content .contact-info p {
+      font-size: 16px;
+    }
+  
+    #forme input,
+    #forme textarea {
+      padding: 15px;
+      margin: 15px 0;
+    }
+  
+    #contact .btn {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+  
+    /* قم بتكييف تخطيط قسم Footer */
+    #Footer {
+      font-size: 12px;
+    }
+  }
+
+
+
+  
+
